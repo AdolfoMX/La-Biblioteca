@@ -1,7 +1,9 @@
 # ENSAMBLADOR x86 - curso online
 * * *
 ## Descripción
-En este archivo contendrá apuntes del curso online de youtube para el lenguaje ensamblador
+En este archivo contendrá apuntes del curso online de youtube para el lenguaje ensamblador.
+
+**Enlace del curso:** [Ensamblador x86](https://www.youtube.com/watch?v=oLsk9J_mViE&list=PLZw5VfkTcc8Mzz6HS6-XNxfnEyHdyTlmP)
 
 ### Parte 1 Componentes básicos
 Componentes básicos que conforman una computadora:
