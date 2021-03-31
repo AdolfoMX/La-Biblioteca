@@ -1,4 +1,4 @@
-# INTEL ASSEMBLY LANGUAGE x86
+# INTEL ASSEMBLY LANGUAGE x86 - libro
 * * *
 ## Descripción
 En este archivo contendrá apuntes acerca del libro Intel Assembly Language x86.
