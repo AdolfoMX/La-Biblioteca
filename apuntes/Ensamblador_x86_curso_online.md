@@ -34,8 +34,8 @@ Componentes básicos que conforman una computadora:
 * **MEMORIA (término general):** es el dispositivo que retiene, memoriza o almacena datos informáticos durante algún periodo de tiempo.La memoria proporciona una de las 
   principales funciones de la computación moderna: el almacenamiento de información y conocimiento.
   
-  ### Parte 2 Arquitecturas de cómputo
-  Formas en que se interconectan los componentes de una computadora son los siguientes:
+### Parte 2 Arquitecturas de cómputo
+Formas en que se interconectan los componentes de una computadora son los siguientes:
   * **HARDVARD:** es una configuración de la computadora en la que los datos y las instrucciones de un programa se encuentran en celdas separadas de memoria, que se pueden 
     abordar de forma independiente, es decir, contiene dos áreas separadas: para los comandos o instrucciones y para los datos. Por tanto, la función principal de esta 
     arquitectura es almacenar los datos separados físicamente, proporcionando diferentes rutas de señal para las instrucciones y los datos.
@@ -50,3 +50,11 @@ Componentes básicos que conforman una computadora:
     cómo se debe utilizar.
     
     En resumen la arquitectura permite que los contenidos de la memoria de instrucciones sean accedidas como si fuesen datos.
+
+### Parte 3 Registros
+Los registros se encuentran dentro de cada microprocesador y su función es almacenar los valores de datos, comandos, instrucciones o estados binarios que ordenan qué dato debe procesarse, como la forma en la que se debe hacer. Cada registro puede contener una instrucción, una dirección de almacenamiento o cualquier tipo de dato.
+
+* **Registros de propósitos generales:** son los encargados de almacenar temporalmente los datos con los que el procesador realiza las operaciones, y de guardar los resultados     de dichas operaciones. También se utilizan para guardar direcciones de memoria.
+* **Registros de banderas:** los registros de banderas sirven para mostrar el estado actual de la máquina y también el resultado del procesamiento de una instrucción.
+* **Registros de segmentos** un registro de segmento almacena direcciones de memoria donde comienzan y terminan los distintos segmentos o partes en las que el sistema operativo
+  la divide.
