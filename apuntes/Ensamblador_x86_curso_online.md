@@ -58,3 +58,10 @@ Los registros se encuentran dentro de cada microprocesador y su función es alma
 * **Registros de banderas:** los registros de banderas sirven para mostrar el estado actual de la máquina y también el resultado del procesamiento de una instrucción.
 * **Registros de segmentos** un registro de segmento almacena direcciones de memoria donde comienzan y terminan los distintos segmentos o partes en las que el sistema operativo
   la divide.
+
+### Parte 4 Ciclo de Fetch
+Es el conjunto de acciones que se llevan a cabo en la realización de una instrucción. Comprende una secuencia de acciones determinada que debe llevar a cabo la CPU para ejecutar cada instrucción en un programa. Cada instrucción del juego de instrucciones de una CPU, puede requerir diferente número de ciclos de instrucción para su ejecución. Un ciclo de instrucción está formado por uno o más ciclos máquina. Se compone de las dos siguientes fases:
+
+* **Fase de búsqueda.** En esta fase se transfiere la instrucción que corresponde ejecutar desde la memoria central a la unidad de control.
+* **Fase de decodificación.** El decodificador de instrucción interpreta e implementa la instrucción. El registro de instrucción (IR) mantiene la instrucción en curso mientras     el contador de programa (PC, program counter) guarda la dirección de memoria de la siguiente instrucción a ser ejecutada.
+* **Fase de ejecución**. Consiste en la realización de todas las acciones que conlleva la propia instrucción.
