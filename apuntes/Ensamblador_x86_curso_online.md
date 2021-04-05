@@ -65,3 +65,23 @@ Es el conjunto de acciones que se llevan a cabo en la realización de una instru
 * **Fase de búsqueda.** En esta fase se transfiere la instrucción que corresponde ejecutar desde la memoria central a la unidad de control.
 * **Fase de decodificación.** El decodificador de instrucción interpreta e implementa la instrucción. El registro de instrucción (IR) mantiene la instrucción en curso mientras     el contador de programa (PC, program counter) guarda la dirección de memoria de la siguiente instrucción a ser ejecutada.
 * **Fase de ejecución**. Consiste en la realización de todas las acciones que conlleva la propia instrucción.
+
+### Parte 5 Modos de direccionamiento
+Hace referencia las diferentes formas de determinar la manera de acceder a los involucrados en una operación en pocas palabras son las formas de como ubicar los datos dentro de las memorias.
+
+* **Direccionamiento inmediato:** En este modo el operando es especificado en la instrucción misma. En otras palabras una instrucción de modo inmediato tiene un un campo de
+  operando en vez de un campo de dirección. El campo del operando contiene el operando actual que se debe utilizar en conjunto con la operación especificada en la instrucción.
+  Las instrucciones de modo inmediato son útiles para inicializar los registros en un valor constantes.
+  
+* **Direccionamiento por registro:** Sirve para especificar operandos que están en registros. En este modo, los operandos están en registros que residen dentro de la CPU.
+
+* **Direccionamiento directo:** 
+  El campo de operando en la instrucción contiene la dirección en memoria donde se encuentra el operando. En este modo la dirección efectiva es igual a la parte de dirección de   la instrucción. El operando reside en la memoria y su dirección es dada directamente por el campo de dirección de la instrucción. En una instrucción de tipo ramificación el     campo de dirección especifica la dirección de la rama actual.
+  
+* **Direccionamiento indirecto a registro:** El campo de operando de la instrucción contiene un identificador de registro en el que se encuentra la dirección efectiva del         operando. En este modo el campo de la dirección de la instrucción da la dirección en donde la dirección efectiva se almacena en la memoria. El control localiza la instrucción   de la memoria y utiliza su parte de dirección para acceder a la memoria de nuevo para leer una dirección efectiva. 
+
+* **Direccionamiento relativo a la base:** Consiste, al igual que el indirecto a través de registro, en calcular la dirección efectiva (EA, effective address) como la suma del     contenido del registro base y un cierto desplazamiento (offset) que siempre será positivo. 
+
+* **Direccionamiento indexado:** La dirección del operando también se calcula sumando un registro de la CPU al campo operando, este registro es un registro específico.
+
+* **Direccionamiento a base:** Se trata de una combinación de de dos direccionamientos que son "relativo a un registro base" y "relativo a un registro indice".
