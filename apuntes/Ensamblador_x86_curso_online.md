@@ -85,3 +85,36 @@ Hace referencia las diferentes formas de determinar la manera de acceder a los i
 * **Direccionamiento indexado:** La dirección del operando también se calcula sumando un registro de la CPU al campo operando, este registro es un registro específico.
 
 * **Direccionamiento a base:** Se trata de una combinación de de dos direccionamientos que son "relativo a un registro base" y "relativo a un registro indice".
+
+### Parte 6 interrupciones
+Una interrupción es una situación especial que suspende la ejecución de un programa de modo que el sistema pueda realizar una acción para tratarla. Tal situación se da, por ejemplo, cuando un periférico requiere la atención del procesador para realizar una operación de E/S.
+
+**Ejemplos:**
+
+int 01h-->un solo paso
+
+int 02h-->interrupcion no enmascarable
+
+int 03h--> punto de interrupcion
+
+int 04h-->desbordamiento
+
+int 05h-->impresion de pantalla
+
+int 08h-->Cronometro
+
+int 15h-->Servicios del sistema
+
+int 16h-->Funciones de entrada del teclado
+
+int 18h-->Entrada con el Basic de Rom
+
+int 19h-->Cargador ed arranque
+
+int 1Ah-->Leer y establecer la hora
+
+int 1Bh-->Obtener el control con una interrupcion de teclado.
+
+int 2oh-->Terminar un programa
+
+int 33h->Funciones del Raton
