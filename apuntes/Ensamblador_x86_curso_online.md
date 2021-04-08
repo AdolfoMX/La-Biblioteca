@@ -118,3 +118,18 @@ int 1Bh-->Obtener el control con una interrupcion de teclado.
 int 2oh-->Terminar un programa
 
 int 33h->Funciones del Raton
+
+### Parte 7 ensambladores
+La computadora utiliza el conocido lenguaje ensamblador, que es un lenguaje de alto nivel y al hablar de lenguajes de alto nivel se debe comprender que trabaja por medio de
+codigo binario. Existen varios tipos de lenguaje ensamblador, aunque finalmente todos realizan las mismas tareas.
+
+* **ENSAMBLADORES CRUZADOS:** permiten el soporte de medios fisicos como pantallas, impresoras, teclado, etc. y la programacion que ofrecen maquinas potentes que luego seran
+  ejecutados en sistemas especializados.
+  
+* **ENSAMBLADORES RESIDENTES:** permanecen en la memoria de la computadora, y cargan para su ejecucion al programa objeto producido. es el indicado para el desarrollo de
+  pequeños sistemas de control.
+  
+* **MACROENSAMBLADORES:** permiten el uso de macroinstrucciones, son programas grandes que no permanecen en memoria una ves que se a genereado el codigo objeto, normalmete son
+  programas complejos y residentes.
+  
+* **MICROENSAMBLADORES:** Indica al interprete las instrucciones de como debe actuar la CPU.
