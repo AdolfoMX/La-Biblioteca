@@ -22,7 +22,7 @@ mov ebx, 2 ; variable donde almacena un 2 para la division
 cmp ebx, 0 ; compara ebx si es un valor cero
 je escero
 
-div ebx    ; division de forma implica
+div ebx    ; division de forma implicita
 
 add ebx, 48
 mov [resultado], ebx
