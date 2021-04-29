@@ -1,4 +1,4 @@
-; funciones booleanas 
+; funciones booleanas parte 1
 ; Determina si un número es par o impar
 
 ;------------- Seccion de datos -------------
@@ -16,7 +16,7 @@ section .bss
 section .text
     global _start
 
-start:
+_start:
 ; si desea cambiar el valor de comparacion solo reemplaze el numero 5
 ; el valor de 1 del registro bl sirve para la comparacion de si es impar
 mov al, 5            ; mueve y almacena el valor 5 en "al"
