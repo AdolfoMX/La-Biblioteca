@@ -11,7 +11,7 @@ section .text
 
 _start:
 mov eax, 5             ; almacenando el valor 5
-mov ebx, 0             ; almacenando el valor 9
+mov ebx, 0             ; almacenando el valor 0
 
 cmp eax, 5             ; comparación del registro eax con 5
 jz cuerpoif            ; si la comparación es igual manda un 1 desde cuerpoif
